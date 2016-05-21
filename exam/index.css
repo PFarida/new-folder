@@ -1,0 +1,48 @@
+.container{
+	background-color:lightgrey;
+
+}
+
+
+.koala .newclass{
+	
+	height: 40px;
+	width: 80%;
+	padding:2px;
+}
+
+.codeclass{
+	width: 500px;
+	height: 50px;
+}
+.academyclass{
+	width: 500px;
+	height: 50px;
+}
+
+
+.newinput2{
+	background-color: red;
+	color:white;
+
+}
+.effekt1{
+	background-color: red;
+	color:white;
+}
+.effekt2{
+	background-color: red;
+	color:white;
+}
+.effekt3{
+	background-color: red;
+	color:white;
+}
+
+.effekt4{
+	background-color: red;
+	color:white;
+}
+.col-md-12 .yeni{
+	display:inline-block;
+}

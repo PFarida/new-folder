@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+</head>
+<body>
+ <div class="container">
+ <div class="row">
+ <div class="col-md-12" class="yenicol">
+ 	<h3 style="color:red;">MY CAPS MAKER</h3>
+ </div>
+
+ 	<div class="col-md-12">
+ 		<img id="ekransekil" src="note.png" class="image">
+ 	</div>
+ 	<div class="col-md-12" class="koala">
+ 	<div class="newclass">
+ 		<h2 id="yazi" style="background-color:red;color:white;">Bu yazini deyisdire bilersiniz</h2>
+ 	</div>
+ 	
+ 		<input type="text" id="text" value="Text elave edin" class="codeclass"><br>
+ 			 
+ 			<button onclick="text()">TEXTI DEYIS</button>
+ 			
+ 			
+ 		<input type="text" id="sekil" value="Sekil linkini elave edin" class="academyclass"><br>
+ 		<button onclick="sekil()">SEKILI DEYIS</button>
+         
+	 <div class="row">
+	 <div class="col-md-12" class="yeni">
+	 <form action="demo_form.asp">
+	 	<input type="submit" value="effekt01" class="effekt1">
+	 </form>
+	 <form action="demo_form.asp">
+	 	<input type="submit" value="effekt02" class="effekt2">
+	 </form>
+	  <form action="demo_form.asp">
+	 	<input type="submit" value="effekt03" class="effekt3">
+	 </form>
+	  <form action="demo_form.asp">
+	 	<input type="submit" value="effekt04" class="effekt4">
+	 </form>
+
+
+
+
+
+ </div>
+ </div>
+
+<script >
+	
+		function text(){
+
+				var a = document.getElementById('text').value;
+
+					document.getElementById('yazi').innerHTML=a;
+
+
+		}
+
+		function sekil(){
+
+	var a = document.getElementById('sekil').value;
+
+					document.getElementById('ekransekil').src=a;
+
+		}
+
+</script>
+
+
+
+</body>
+</html>
